@@ -35,8 +35,6 @@ Average waiting time per car, fixed timer vs trained agent, on traffic patterns 
 | heavy-1 | 61.7 s | 28.5 s | 54% |
 | heavy-2 | 71.7 s | 23.8 s | 67% |
 
-(light-1 and light-2 are in the chart. Add their numbers here from the console output.)
-
 The RL agent won in all six scenarios, and the gap grew as traffic got heavier.
 
 ## Limitations
