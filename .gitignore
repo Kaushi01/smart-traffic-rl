@@ -1,0 +1,8 @@
+venv/
+outputs/
+__pycache__/
+*.zip
+test_*.xml
+trip_*.xml
+tripinfo*.xml
+trips.trips.xml

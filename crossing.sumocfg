@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="crossing.net.xml"/>
+        <route-files value="crossing.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="600"/>
+    </time>
+</configuration>
