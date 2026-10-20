@@ -28,6 +28,8 @@ Average waiting time per car, fixed timer vs trained agent, on traffic patterns 
 
 | Scenario | Fixed timer | RL agent | Improvement |
 |---|---|---|---|
+| light-1 | 11.2 s | 3.9 s | 65% |
+| light-2 | 12.6 s | 4.2 s | 67% |
 | normal-1 | 17.8 s | 8.7 s | 51% |
 | normal-2 | 16.4 s | 8.3 s | 49% |
 | heavy-1 | 61.7 s | 28.5 s | 54% |
@@ -57,3 +59,4 @@ The RL agent won in all six scenarios, and the gap grew as traffic got heavier.
 3. `python train.py` to train the agent.
 4. `python compare.py` to test it against the fixed timer and make the chart.
 5. `python watch_rl.py` to watch the agent in the SUMO window.
+The trained model is not included in this repo, so run train.py first to create it.
